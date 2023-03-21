@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background:#010c1e;
+}
+
+.container{
+    width: 500px;
+    height: 400px;
+    border: 2px solid #119da4;
+    margin: 45px auto;
+    padding: 45px;
+    background-color: #011627;
+}
+
+.up_content{
+    padding: 10px;
+    margin-bottom: 5px;
+}
+#heading{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+h1 span{
+    color: #0ead69;
+}
+
+#subText{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.mid_content{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin: 20px auto 30px auto;
+}
+
+#createPassword{
+    background-color: #0ead69;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#createPassword:hover{
+    background-color: #ffd23f;
+}
+
+#passwordLength{
+    padding: 10px 15px;
+    width: 80px;
+    border: none;
+    border-radius: 8px;
+    background:#011c46;
+    border: none;
+    text-align: center;
+}
+
+.barline{
+    height: 1px;
+    background: #119da4;
+}
+
+.down_content{
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+#passwordField{
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background:#011c46;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 200px){
+    .container{
+        width: 200px;
+        height: 150px;
+    }
+}
+
